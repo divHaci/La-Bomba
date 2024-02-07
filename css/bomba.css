@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.bomb {
+    width: 80%;
+    height: 80vh;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #808080;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    transition: transform 0.5s ease; /* Aggiunta transizione per l'animazione della trasformazione */
+}
+
+/* @media screen and (max-width: 1487px) {
+    body {
+        display: none;
+    }
+}
+*/

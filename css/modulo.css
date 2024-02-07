@@ -1,0 +1,15 @@
+/* modulo.css */
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px; /* Adjusted the margin-top */
+  margin-bottom: 5px; /* Added margin-bottom for consistency */
+}
+
+.square {
+  width: 32%; /* Adjust the width as needed */
+  height: 39vh; /* Adjusted the height for better spacing */
+  background-color: #605555; /* Change the color as needed */
+  border: 3px solid black;
+  border-radius: 10px;
+}

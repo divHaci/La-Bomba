@@ -1,0 +1,31 @@
+#rotateButton {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ff4d4d; /* Rosso intenso */
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s ease, box-shadow 0.3s ease;
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%) rotateX(0deg) rotateY(0deg);
+  font-family: 'Impact', sans-serif; /* Cambio del font a Impact */
+  font-size: 1.2em; /* Regolazione della dimensione del font */
+  text-align: center; /* Allineamento testo al centro */
+  line-height: 100px; /* Altezza della linea uguale all'altezza del pulsante */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ombra del testo per effetto 3D */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aggiunta ombra per effetto 3D */
+  perspective: 400px; /* Aggiunta prospettiva per l'effetto 3D */
+}
+
+#rotateButton:hover {
+  background: linear-gradient(rgba(255, 77, 77, 0.8), rgba(204, 0, 0, 0.8)); /* Aggiunta gradiente di illuminazione */
+  transform: translateY(-50%) rotateX(5deg) rotateY(5deg) scale(0.95); /* Effetto di schiacciamento e rotazione al passaggio del mouse */
+}
+
+#rotateButton:active {
+  transform: translateY(-50%) scale(0.95); /* Effetto di "pressione" durante l'evento di clic */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Leggero cambiamento dell'ombra */
+}
